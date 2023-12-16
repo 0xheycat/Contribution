@@ -86,6 +86,11 @@ You can check your contribution result
 ```bash
 screen -x penumbra
 ```
+
+After you hash 
+plese input your contribution here
+https://form.asana.com/?k=kWyyWPzQMkJoNTmrfAbWaA&d=1206052071402903
+
 # Important
 * The minimum bid for this ceremony is 60penumbra.
 Once in the queue, you just have to wait until the command completes. Grabe your Coffe with Cat 💕
@@ -94,7 +99,7 @@ Once in the queue, you just have to wait until the command completes. Grabe your
  To change your bid, you can simply run the command again with a different bid amount. Note that each time you bid with the command above, this adds additional funds to all of the previous bids you've already submitted.
 If you get disconnected for some reason, you can simply bid 0penumbra and recover your position in the queue, since all of your previous bids have been recorded.
 
-
+Thank you
 
 
 
