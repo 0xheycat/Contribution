@@ -29,6 +29,12 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/penumbra-zone/penumbra/
 ```bash
 sudo mv /root/.cargo/bin/pcli /usr/local/bin/
 ```
+
+
+https://github.com/fatalbar/Contribution/assets/81378817/4d3d44eb-5291-42be-898c-da392bd18c20
+
+### Jump to 1:25 minutes in the video guide to see how to move the package
+
 ![Screenshot_1](https://github.com/fatalbar/Contribution/assets/81378817/f69b249c-3aa3-41b2-9982-698d06a24551)
 
  Confirm the pcli binary is installed by running:
@@ -52,6 +58,37 @@ pcli init soft-kms import-phrase
 ```bash
 pcli view address
 ```
+
+### 🚨Troubleshooting  If you encounter an error while importing your wallet, you need to remove the config.toml file located at /root/.local/share/pcli/config.toml
+
+https://github.com/fatalbar/Contribution/assets/81378817/672ee20b-3850-4715-b166-99e49f79690d
+
+
+### Jump to 1:22 - 1:58 minutes in the video guide to see how to remove the config.toml file.
+
+1. delete old pharse/move other place
+```bash
+rm -rf /root/.local/share/pcli/config.toml
+```
+2. check config.toml if already deleted
+```bash
+cat /root/.local/share/pcli/config.toml
+```
+
+#Import old pharse 
+
+### Jump to 1:59 - 02:09 minutes in the video guide to see how to import old pharse
+
+
+1. use this command to start import old pharse
+
+```bash
+pcli init soft-kms import-phrase
+```
+
+2. enter your old phrase then hit ENTER
+
+
 
 ![Screenshot_4](https://github.com/fatalbar/Contribution/assets/81378817/2ec4407f-8195-4f83-aa65-ca2e5abf7d9d)
 
@@ -80,30 +117,35 @@ screen -S penumbra
 pcli ceremony contribute --phase 2 --bid 60penumbra
 
 ```
+
+
+https://github.com/fatalbar/Contribution/assets/81378817/4ddd9af9-9ed4-4379-9653-eecb6132da8d
+
+
 ![Screenshot_6](https://github.com/fatalbar/Contribution/assets/81378817/16d1018d-2d12-40cc-8b3d-22b2229a7eba)
 
-Make a Coffe and wait until your Contribution accepted, 
-Dont worry pcli will output your contribution hash after submission complete
+Make a coffee and wait until your contribution is accepted. Don't worry, PCLI will output your contribution hash after submission is complete.
 
-i wanna close my screen without Disconnecting with pcli ? well just `CTRL+A+D`
-You can check your contribution result
+If you want to close your screen without disconnecting from PCLI, simply use CTRL+A+D. You can check your contribution result by using
 
 ```bash
 screen -x penumbra
 ```
 
-After you hash 
-plese input your contribution here (will update it when ready)
+After you receive your hash, please input your contribution here (will update when ready).
 
-# Important
-* The minimum bid for this ceremony is 60penumbra.
-Once in the queue, you just have to wait until the command completes. Grabe your Coffe with Cat 💕
-* Posting your contribution hash publicly allows others to verify that your contribution was included in the transcript!
-* Reconnecting and Rebidding
- To change your bid, you can simply run the command again with a different bid amount. Note that each time you bid with the command above, this adds additional funds to all of the previous bids you've already submitted.
-If you get disconnected for some reason, you can simply bid 0penumbra and recover your position in the queue, since all of your previous bids have been recorded.
+Important:
+- The minimum bid for this ceremony is 60 penumbra. Once in the queue, you just have to wait until the command completes. Grab your coffee with Cat 💕
+Posting your contribution hash publicly allows others to verify that your contribution was included in the transcript!
 
-Thank you
+- Reconnecting and Rebidding:
+To change your bid, you can simply run the command again with a different bid amount. Note that each time you bid with the command above, this adds additional funds to all of the previous bids you've already submitted.
+- If you get disconnected for some reason, you can simply bid 0 penumbra and recover your position in the queue, since all of your previous bids have been recorded.
+Thank you.
+
+
+twitter thread 
+https://x.com/0xheycat/status/1798268660462797012
 
 
 
