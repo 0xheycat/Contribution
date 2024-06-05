@@ -8,7 +8,7 @@
 * Discord https://discord.gg/cFtxMF7X5J
   
 # Register
-* Penumbra Penumbra Summoning Phase 2 Attestations will addy soon
+* Penumbra Penumbra Summoning Phase 2 Attestations https://form.asana.com/?k=THhk7qmp3IDwCvXWTPHkow&d=1206052071402903
 # Preq
 
 ```bash
