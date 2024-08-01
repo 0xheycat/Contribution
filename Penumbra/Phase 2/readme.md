@@ -24,7 +24,7 @@ cd penumbra
 ```
 
 ```bash
-curl --proto '=https' --tlsv1.2 -LsSf https://github.com/penumbra-zone/penumbra/releases/download/v0.77.2/pcli-installer.sh | sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/penumbra-zone/penumbra/releases/download/v0.79.3/pcli-installer.sh | sh
 ```
 ```bash
 sudo mv /root/.cargo/bin/pcli /usr/local/bin/
