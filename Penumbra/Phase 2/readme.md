@@ -53,6 +53,10 @@ pcli init soft-kms generate
 2. Import existing wallet (Optional)
  ```bash
 pcli init soft-kms import-phrase
+```
+if you encountered error while import your wallet , try using this command
+```bash
+pcli init --grpc-url https://grpc.penumbra.quokkastake.io/ soft-kms import-phrase
  ```
 3. Check Address
 ```bash
